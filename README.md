@@ -6,8 +6,14 @@ The objective of this project is to develop an application in order to perform a
 Also, Platforms like Quantopian to be used in order to perform back testing in a more precise and effective manner.
 
 # METHODOLOGY
--Retrieving the tickers of S&P Company
+- Retrieving the tickers of S&P Company
 
--Fetch the data of stock from yahoo finance
+- Fetch the data of stock from yahoo finance
 
--Compiling data of S&P 500 Company
+- Compiling data of S&P 500 Company
+
+- Visualize the correlation matrix of S&P 500 companies
+
+- Preparing data for learning algorithms
+
+- Training and testing of classifiers
