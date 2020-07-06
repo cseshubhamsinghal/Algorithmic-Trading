@@ -6,6 +6,7 @@ The objective of this project is to develop an application in order to perform a
 Also, Platforms like Quantopian to be used in order to perform back testing in a more precise and effective manner.
 
 # METHODOLOGY
+
 - Retrieving the tickers of S&P Company
 
 - Fetch the data of stock from yahoo finance
@@ -17,3 +18,7 @@ Also, Platforms like Quantopian to be used in order to perform back testing in a
 - Preparing data for learning algorithms
 
 - Training and testing of classifiers
+
+- Back Testing using Quantopian
+
+- Trading Based On Sentiment Analysis and Performance metrics of firms
