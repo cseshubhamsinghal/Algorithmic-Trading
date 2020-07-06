@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt  # to visualize the data
 import pandas as pd  # to work with dataframes
 
 # Importing the training set
-dataset_train = pd.read_csv('Google_Stock_Price_Train.csv')
+dataset_train = pd.read_csv('Google_Train.csv')
 training_set = dataset_train.iloc[:, 1:2].values
                     # iloc method is used to get the right columns from the dataset that is used 
 # Feature Scaling
@@ -77,7 +77,7 @@ regressor.fit(X_train, y_train, epochs = 100, batch_size = 32)
 # Part 3 - Making the predictions and visualising the results
 
 # Getting the real stock price of 2017
-dataset_test = pd.read_csv('Google_Stock_Price_Test.csv')
+dataset_test = pd.read_csv('Google_Test.csv')
 real_stock_price = dataset_test.iloc[:, 1:2].values
 
 # Getting the predicted stock price of 2017
